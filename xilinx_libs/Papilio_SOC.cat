@@ -1,0 +1,9 @@
+"Papilio SOC Peripherals"
+{
+"papilio_stepper"
+"zpuino_empty_device"
+}
+"Papilio SOC Soft Processors"
+{
+"ZPUino"
+}
