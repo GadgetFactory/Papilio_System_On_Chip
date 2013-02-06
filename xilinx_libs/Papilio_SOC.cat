@@ -2,6 +2,10 @@
 {
 "papilio_stepper"
 "zpuino_empty_device"
+"vga_zxspectrum"
+"zpuino_spi"
+"zpuino_sigmadelta"
+"zpuino_uart"
 }
 "Papilio SOC Soft Processors"
 {

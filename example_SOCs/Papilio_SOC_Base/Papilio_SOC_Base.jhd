@@ -1,0 +1,21 @@
+MODULE Papilio_SOC_Base
+	SUBMODULE zpuino_empty_device
+		INSTANCE XLXI_15
+	SUBMODULE zpuino_empty_device
+		INSTANCE XLXI_16
+	SUBMODULE zpuino_empty_device
+		INSTANCE XLXI_17
+	SUBMODULE zpuino_empty_device
+		INSTANCE XLXI_18
+	SUBMODULE zpuino_empty_device
+		INSTANCE XLXI_19
+	SUBMODULE zpuino_empty_device
+		INSTANCE XLXI_20
+	SUBMODULE zpuino_empty_device
+		INSTANCE XLXI_21
+	SUBMODULE zpuino_empty_device
+		INSTANCE XLXI_22
+	SUBMODULE zpuino_empty_device
+		INSTANCE XLXI_23
+	SUBMODULE ZPUino
+		INSTANCE XLXI_12

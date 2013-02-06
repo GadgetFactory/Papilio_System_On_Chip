@@ -23,6 +23,17 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Papilio_SOC_Base_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="vga_zxspectrum.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="vga_zxspectrum.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_gpio.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_gpio.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_sigmadelta.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_sigmadelta.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="zpuino_sigmadelta.vhi"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_spi.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_spi.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_uart.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_uart.sym" xil_pn:origination="imported"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
