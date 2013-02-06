@@ -7,6 +7,7 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch</ClosedNode>
          <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch/XLXI_12 - ZPUino - behave</ClosedNode>
          <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch/XLXI_12 - ZPUino - behave/ibufmiso - ipad - behave</ClosedNode>
          <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch/XLXI_12 - ZPUino - behave/ibufrx - ipad - behave</ClosedNode>
@@ -108,10 +109,12 @@
          <ClosedNode>/zpuino_vga2 - behave C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|zpuino_vga2.vhd</ClosedNode>
          <ClosedNode>/zpuino_vga2 - behave C:|dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|zpuino_vga2.vhd</ClosedNode>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>Papilio_SOC_Base (C:/Dropbox/GadgetFactory/GadgetFactory_Engineering/Papilio_System_On_Chip/example_SOCs/Papilio_SOC_Base/Papilio_SOC_Base.sch)</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c2000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c20000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000015f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000015f0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>Papilio_SOC_Base (C:/Dropbox/GadgetFactory/GadgetFactory_Engineering/Papilio_System_On_Chip/example_SOCs/Papilio_SOC_Base/Papilio_SOC_Base.sch)</CurrentItem>
    </ItemView>
@@ -136,7 +139,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000e50000000100000000000000240000000100000000000000660000000100000000000002230000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000001d3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000e50000000100000000000000240000000100000000000000660000000100000000000000640000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>clkgen.vhd</CurrentItem>
    </ItemView>
@@ -154,11 +157,6 @@
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Configure Target Device</ClosedNode>
-         <ClosedNode>Design Utilities</ClosedNode>
-         <ClosedNode>Implement Design</ClosedNode>
-         <ClosedNode>Synthesize - XST</ClosedNode>
-         <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem></SelectedItem>
@@ -174,16 +172,20 @@
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b1000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b10000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -221,5 +223,18 @@
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b1000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b10000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>sid_voice.vhd (C:/Dropbox/GadgetFactory/GadgetFactory_Engineering/Papilio_System_On_Chip/soft_processors/ZPUino-HDL/zpu/hdl/zpuino/contrib/NetSID/src/sid_voice.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000015b000000020000000000000000000000000000000064ffffffff000000810000000000000002000000eb0000000100000000000000700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>sid_voice.vhd (C:/Dropbox/GadgetFactory/GadgetFactory_Engineering/Papilio_System_On_Chip/soft_processors/ZPUino-HDL/zpu/hdl/zpuino/contrib/NetSID/src/sid_voice.vhd)</CurrentItem>
    </ItemView>
 </Project>
