@@ -6,6 +6,11 @@
 "zpuino_spi"
 "zpuino_sigmadelta"
 "zpuino_uart"
+"i2c_master_top"
+"wb_sid6581"
+"zpuino_io_POKEY"
+"zpuino_io_YM2149"
+"zpuino_sevenseg"
 }
 "Papilio SOC Soft Processors"
 {

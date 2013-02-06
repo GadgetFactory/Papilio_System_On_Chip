@@ -23,10 +23,20 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Papilio_SOC_Base_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="i2c_master_top.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="i2c_master_top.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="vga_zxspectrum.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="vga_zxspectrum.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="wb_sid6581.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="wb_sid6581.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_gpio.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_gpio.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_io_POKEY.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_io_POKEY.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_io_YM2149.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_io_YM2149.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_sevenseg.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_sevenseg.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_sigmadelta.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_sigmadelta.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="zpuino_sigmadelta.vhi"/>

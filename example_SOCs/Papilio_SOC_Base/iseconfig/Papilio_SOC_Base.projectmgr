@@ -63,8 +63,16 @@
          <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch/XLXI_12 - ZPUino - behave/timers_inst - zpuino_timers - behave</ClosedNode>
          <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch/XLXI_12 - ZPUino - behave/uart_inst - zpuino_uart - behave</ClosedNode>
          <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch/XLXI_12 - ZPUino - behave/zpuino - zpuino_top - behave</ClosedNode>
+         <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch/XLXI_24 - i2c_master_top - structural</ClosedNode>
+         <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch/XLXI_26 - vga_zxspectrum - behave</ClosedNode>
+         <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch/XLXI_27 - wb_sid6581 - rtl</ClosedNode>
+         <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch/XLXI_32 - zpuino_spi - behave</ClosedNode>
+         <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch/XLXI_33 - zpuino_uart - behave</ClosedNode>
+         <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch/XLXI_34 - zpuino_uart - behave</ClosedNode>
          <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch/openocd_rbb</ClosedNode>
          <ClosedNode>/Papilio_SOC_Base C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|example_SOCs|Papilio_SOC_Base|Papilio_SOC_Base.sch/txt_util</ClosedNode>
+         <ClosedNode>/i2c_master_top - structural C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|contrib|i2c|i2c_master_top.vhd</ClosedNode>
+         <ClosedNode>/i2c_master_top - structural C:|dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|contrib|i2c|i2c_master_top.vhd</ClosedNode>
          <ClosedNode>/iopad - behave C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|pad-sim.vhd</ClosedNode>
          <ClosedNode>/iopad - behave C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|pad.vhd</ClosedNode>
          <ClosedNode>/iopad - behave C:|dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|pad.vhd</ClosedNode>
@@ -83,6 +91,8 @@
          <ClosedNode>/wb_bootloader - behave C:|dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|wb_bootloader.vhd</ClosedNode>
          <ClosedNode>/wb_rom_ram - behave C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|wb_rom_ram_extra.vhd</ClosedNode>
          <ClosedNode>/wb_rom_ram - behave C:|dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|wb_rom_ram.vhd</ClosedNode>
+         <ClosedNode>/wb_sid6581 - rtl C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|contrib|NetSID|src|wb_sid6581.vhd</ClosedNode>
+         <ClosedNode>/wb_sid6581 - rtl C:|dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|contrib|NetSID|src|wb_sid6581.vhd</ClosedNode>
          <ClosedNode>/zpu_core - behave C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|zpu_core.vhd</ClosedNode>
          <ClosedNode>/zpu_core - behave C:|dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|zpu_core.vhd</ClosedNode>
          <ClosedNode>/zpuino_adc - behave C:|Dropbox|GadgetFactory|GadgetFactory_Engineering|Papilio_System_On_Chip|soft_processors|ZPUino-HDL|zpu|hdl|zpuino|zpuino_adc.vhd</ClosedNode>
@@ -135,7 +145,7 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems/>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000f8000000010001000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
