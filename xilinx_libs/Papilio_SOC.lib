@@ -540,7 +540,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="ZPUino">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2013-2-4T5:17:2</timestamp>
+    <timestamp>2013-2-9T1:16:10</timestamp>
     <pin polarity="Input" x="-16" y="-512" name="CLK" />
     <pin polarity="Input" x="-16" y="-448" name="SPI_MISO" />
     <pin polarity="Input" x="-16" y="-384" name="RXD" />
@@ -634,19 +634,20 @@
     <pin polarity="Output" x="1584" y="0" name="wb_stb_i15" />
     <pin polarity="Input" x="1600" y="0" name="wb_ack_o15" />
     <pin polarity="Input" x="1616" y="0" name="wb_inta_o15" />
-    <pin polarity="Output" x="1696" y="-496" name="SPI_SCK" />
-    <pin polarity="Output" x="1696" y="-432" name="SPI_MOSI" />
-    <pin polarity="Output" x="1696" y="-368" name="TXD" />
-    <pin polarity="BiDirectional" x="1696" y="-304" name="SPI_CS" />
-    <pin polarity="BiDirectional" x="1696" y="-240" name="WING_A(15:0)" />
-    <pin polarity="BiDirectional" x="1696" y="-176" name="WING_B(15:0)" />
-    <pin polarity="BiDirectional" x="1696" y="-112" name="WING_C(15:0)" />
+    <pin polarity="Output" x="1696" y="-560" name="SPI_SCK" />
+    <pin polarity="Output" x="1696" y="-496" name="SPI_MOSI" />
+    <pin polarity="Output" x="1696" y="-432" name="TXD" />
+    <pin polarity="BiDirectional" x="1696" y="-368" name="SPI_CS" />
+	<pin polarity="Output" x="1696" y="-304" name="gpio_clk" />
+    <pin polarity="Output" x="1696" y="-240" name="gpio_t(48:0)" />
+    <pin polarity="Output" x="1696" y="-272" name="gpio_o(48:0)" />
+    <pin polarity="Input" x="1696" y="-208" name="gpio_i(48:0)" />
+    <pin polarity="Input" x="1696" y="-176" name="gpio_spp_data(48:0)" />
+    <pin polarity="Output" x="1696" y="-144" name="gpio_spp_read(48:0)" />
     <graph>
-        <rect width="1588" x="48" y="-544" height="516" />
-        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="240" y="-552" type="symbol" />
+        <rect width="1588" x="48" y="-588" height="560" />
         <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="56" y="-512" type="pin CLK" />
         <line x2="-16" y1="-512" y2="-512" x1="48" />
-        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="56" y="-448" type="pin SPI_MISO" />
         <line x2="-16" y1="-448" y2="-448" x1="48" />
         <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="56" y="-384" type="pin RXD" />
         <line x2="-16" y1="-384" y2="-384" x1="48" />
@@ -749,22 +750,32 @@
         <text style="fontsize:24;fontname:Arial" x="1484" y="-48">WB Slot 15</text>
         <text style="fontsize:24;fontname:Arial" x="1132" y="-48">WB Slot 13</text>
         <text style="fontsize:24;fontname:Arial" x="1308" y="-48">WB Slot 14</text>
-        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-496" type="pin SPI_SCK" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-560" type="pin SPI_SCK" />
+        <line x2="1696" y1="-560" y2="-560" x1="1632" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-496" type="pin SPI_MOSI" />
         <line x2="1696" y1="-496" y2="-496" x1="1632" />
-        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-432" type="pin SPI_MOSI" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-432" type="pin TXD" />
         <line x2="1696" y1="-432" y2="-432" x1="1632" />
-        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-368" type="pin TXD" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-368" type="pin SPI_CS" />
         <line x2="1696" y1="-368" y2="-368" x1="1632" />
-        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-304" type="pin SPI_CS" />
-        <line x2="1696" y1="-304" y2="-304" x1="1632" />
-        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-240" type="pin WING_A(15:0)" />
         <rect width="64" x="1632" y="-252" height="24" />
         <line x2="1696" y1="-240" y2="-240" x1="1632" />
-        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-176" type="pin WING_B(15:0)" />
-        <rect width="64" x="1632" y="-188" height="24" />
-        <line x2="1696" y1="-176" y2="-176" x1="1632" />
-        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-112" type="pin WING_C(15:0)" />
-        <rect width="64" x="1632" y="-124" height="24" />
-        <line x2="1696" y1="-112" y2="-112" x1="1632" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-240" type="pin gpio_t(48:0)" />
+        <rect width="64" x="1632" y="-284" height="24" />
+        <line x2="1696" y1="-272" y2="-272" x1="1632" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-304" type="pin gpio_clk" />
+		<attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-272" type="pin gpio_o(48:0)" />
+        <text style="fontsize:24;fontname:Arial" x="1488" y="-312">GPIO</text>
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="56" y="-448" type="pin SPI_MISO" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="276" y="-600" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="1512" y="-208" type="pin gpio_i(48:0)" />
+        <rect width="256" x="1380" y="-296" height="188" />
+        <line x2="1636" y1="-176" y2="-176" x1="1696" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="1400" y="-176" type="pin gpio_spp_data(48:0)" />
+        <rect width="64" x="1636" y="-188" height="24" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="1624" y="-144" type="pin gpio_spp_read(48:0)" />
+        <rect width="64" x="1632" y="-156" height="24" />
+        <line x2="1696" y1="-144" y2="-144" x1="1632" />
+        <line x2="1640" y1="-208" y2="-208" x1="1696" />
     </graph>
 </symbol> 

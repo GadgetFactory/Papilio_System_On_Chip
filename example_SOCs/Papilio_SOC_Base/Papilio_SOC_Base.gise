@@ -22,30 +22,169 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Papilio_SOC_Base.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Papilio_Default.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Papilio_SOC_Base.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Papilio_SOC_Base.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Papilio_SOC_Base.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Papilio_SOC_Base.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Papilio_SOC_Base.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Papilio_SOC_Base.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Papilio_SOC_Base.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Papilio_SOC_Base.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Papilio_SOC_Base.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Papilio_SOC_Base.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Papilio_SOC_Base.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Papilio_SOC_Base.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Papilio_SOC_Base.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Papilio_SOC_Base.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Papilio_SOC_Base.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Papilio_SOC_Base.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Papilio_SOC_Base.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Papilio_SOC_Base.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="Papilio_SOC_Base.vhf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Papilio_SOC_Base.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Papilio_SOC_Base.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Papilio_SOC_Base_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Papilio_SOC_Base_guide.ncd" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="i2c_master_top.spl"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="i2c_master_top.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="vga_zxspectrum.spl"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="vga_zxspectrum.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="wb_sid6581.spl"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="wb_sid6581.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_gpio.spl"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_gpio.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_io_POKEY.spl"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_io_POKEY.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_io_YM2149.spl"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_io_YM2149.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_sevenseg.spl"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_sevenseg.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_sigmadelta.spl"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_sigmadelta.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="zpuino_sigmadelta.vhi"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_spi.spl"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_spi.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zpuino_uart.spl"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zpuino_uart.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Papilio_SOC_Base_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Papilio_SOC_Base_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Papilio_SOC_Base_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Papilio_SOC_Base_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Papilio_SOC_Base_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Papilio_SOC_Base_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Papilio_SOC_Base_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Papilio_SOC_Base_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Papilio_SOC_Base_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Papilio_SOC_Base_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Papilio_SOC_Base_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Papilio_SOC_Base_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Papilio_SOC_Base_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Papilio_SOC_Base_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="papilio_soc_base.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="papilio_soc_base.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="papilio_soc_base.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1360374559" xil_pn:in_ck="8517025670728024888" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="712723085864142740" xil_pn:start_ts="1360374556">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1360374559" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3109635732902004888" xil_pn:start_ts="1360374559">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1360374559" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1360374559">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1360374559" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5174197251272375698" xil_pn:start_ts="1360374559">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1360374559" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297138737980" xil_pn:start_ts="1360374559">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1360374559" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5269379259627740130" xil_pn:start_ts="1360374559">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1360374845" xil_pn:in_ck="-1643928307694570200" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="5342025544487694350" xil_pn:start_ts="1360374587">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.lso"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.ngc"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.ngr"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.prj"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.stx"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.syr"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.xst"/>
+      <outfile xil_pn:name="Papilio_SOC_Base_vhdl.prj"/>
+      <outfile xil_pn:name="Papilio_SOC_Base_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1360379428" xil_pn:in_ck="-4373178928791618405" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-574981372039153426" xil_pn:start_ts="1360379428">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1360379436" xil_pn:in_ck="-9140244764519003955" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2110006873791072454" xil_pn:start_ts="1360379428">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.bld"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.ngd"/>
+      <outfile xil_pn:name="Papilio_SOC_Base_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1360379446" xil_pn:in_ck="-3666241381431660882" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="2842458847540838050" xil_pn:start_ts="1360379436">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.pcf"/>
+      <outfile xil_pn:name="Papilio_SOC_Base_map.map"/>
+      <outfile xil_pn:name="Papilio_SOC_Base_map.mrp"/>
+      <outfile xil_pn:name="Papilio_SOC_Base_map.ncd"/>
+      <outfile xil_pn:name="Papilio_SOC_Base_map.ngm"/>
+      <outfile xil_pn:name="Papilio_SOC_Base_map.xrpt"/>
+      <outfile xil_pn:name="Papilio_SOC_Base_summary.xml"/>
+      <outfile xil_pn:name="Papilio_SOC_Base_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1360379596" xil_pn:in_ck="2230517357769663015" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-3872219738485705569" xil_pn:start_ts="1360379446">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.ncd"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.pad"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.par"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.ptwx"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.unroutes"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.xpi"/>
+      <outfile xil_pn:name="Papilio_SOC_Base_pad.csv"/>
+      <outfile xil_pn:name="Papilio_SOC_Base_pad.txt"/>
+      <outfile xil_pn:name="Papilio_SOC_Base_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1360379621" xil_pn:in_ck="8517025670728019439" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1360379596">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="papilio_soc_base.bgn"/>
+      <outfile xil_pn:name="papilio_soc_base.bit"/>
+      <outfile xil_pn:name="papilio_soc_base.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1360379596" xil_pn:in_ck="-6811669074288433494" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1360379588">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.twr"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
 
 </generated_project>
