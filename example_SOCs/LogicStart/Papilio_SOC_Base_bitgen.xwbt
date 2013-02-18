@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\dropbox\GadgetFactory\GadgetFactory_Engineering\Papilio_System_On_Chip\example_SOCs\LogicStart\Papilio_SOC_Base.ncd
+OUTFILE=C:\dropbox\GadgetFactory\GadgetFactory_Engineering\Papilio_System_On_Chip\example_SOCs\LogicStart\Papilio_SOC_Base.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5vq100
+WORKINGDIR=C:\dropbox\GadgetFactory\GadgetFactory_Engineering\Papilio_System_On_Chip\example_SOCs\LogicStart
+LICENSE=WebPack
+USER_INFO=175441551_0_0_655
