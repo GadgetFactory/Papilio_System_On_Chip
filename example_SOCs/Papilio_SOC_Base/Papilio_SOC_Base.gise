@@ -22,9 +22,9 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Papilio_SOC_Base.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Papilio_Default.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Papilio_SOC_Base.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Papilio_SOC_Base.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="Papilio_SOC_Base.jhd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Papilio_SOC_Base.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Papilio_SOC_Base.ncd" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Papilio_SOC_Base.ngc"/>
@@ -78,37 +78,42 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1360374559" xil_pn:in_ck="8517025670728024888" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="712723085864142740" xil_pn:start_ts="1360374556">
+    <transform xil_pn:end_ts="1360973863" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1360973863">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1360973866" xil_pn:in_ck="8517025670728024888" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="712723085864142740" xil_pn:start_ts="1360973863">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Papilio_SOC_Base.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1360374559" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3109635732902004888" xil_pn:start_ts="1360374559">
+    <transform xil_pn:end_ts="1360973319" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3109635732902004888" xil_pn:start_ts="1360973319">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1360374559" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1360374559">
+    <transform xil_pn:end_ts="1360973319" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1360973319">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1360374559" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5174197251272375698" xil_pn:start_ts="1360374559">
+    <transform xil_pn:end_ts="1360973319" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5174197251272375698" xil_pn:start_ts="1360973319">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1360374559" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297138737980" xil_pn:start_ts="1360374559">
+    <transform xil_pn:end_ts="1360973664" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297138737980" xil_pn:start_ts="1360973664">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1360374559" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5269379259627740130" xil_pn:start_ts="1360374559">
+    <transform xil_pn:end_ts="1360973664" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5269379259627740130" xil_pn:start_ts="1360973664">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1360374845" xil_pn:in_ck="-1643928307694570200" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="5342025544487694350" xil_pn:start_ts="1360374587">
+    <transform xil_pn:end_ts="1360974231" xil_pn:in_ck="-8520583715771131294" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="5342025544487694350" xil_pn:start_ts="1360973866">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Papilio_SOC_Base.jhd"/>
       <outfile xil_pn:name="Papilio_SOC_Base.lso"/>
       <outfile xil_pn:name="Papilio_SOC_Base.ngc"/>
       <outfile xil_pn:name="Papilio_SOC_Base.ngr"/>
@@ -122,11 +127,11 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1360379428" xil_pn:in_ck="-4373178928791618405" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-574981372039153426" xil_pn:start_ts="1360379428">
+    <transform xil_pn:end_ts="1360973670" xil_pn:in_ck="-4373178928791618405" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-574981372039153426" xil_pn:start_ts="1360973670">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1360379436" xil_pn:in_ck="-9140244764519003955" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2110006873791072454" xil_pn:start_ts="1360379428">
+    <transform xil_pn:end_ts="1360974243" xil_pn:in_ck="-9140244764519003955" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2110006873791072454" xil_pn:start_ts="1360974231">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Papilio_SOC_Base.bld"/>
@@ -135,7 +140,7 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1360379446" xil_pn:in_ck="-3666241381431660882" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="2842458847540838050" xil_pn:start_ts="1360379436">
+    <transform xil_pn:end_ts="1360974260" xil_pn:in_ck="-3666241381431660882" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="2842458847540838050" xil_pn:start_ts="1360974243">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -151,7 +156,7 @@
       <outfile xil_pn:name="Papilio_SOC_Base_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1360379596" xil_pn:in_ck="2230517357769663015" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-3872219738485705569" xil_pn:start_ts="1360379446">
+    <transform xil_pn:end_ts="1360974833" xil_pn:in_ck="2230517357769663015" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-3872219738485705569" xil_pn:start_ts="1360974260">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -166,7 +171,7 @@
       <outfile xil_pn:name="Papilio_SOC_Base_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1360379621" xil_pn:in_ck="8517025670728019439" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1360379596">
+    <transform xil_pn:end_ts="1360974861" xil_pn:in_ck="8517025670728019439" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1360974833">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Papilio_SOC_Base.ut"/>
@@ -178,7 +183,7 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1360379596" xil_pn:in_ck="-6811669074288433494" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1360379588">
+    <transform xil_pn:end_ts="1360974833" xil_pn:in_ck="-6811669074288433494" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1360974825">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Papilio_SOC_Base.twr"/>

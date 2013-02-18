@@ -71,6 +71,15 @@ entity ZPUino is
     TXD:        out std_logic;
     RXD:        in std_logic;
 	 
+	 v_wb_dat_o: out std_logic_vector(wordSize-1 downto 0);
+	 v_wb_dat_i: in std_logic_vector(wordSize-1 downto 0);
+	 v_wb_adr_i: in std_logic_vector(maxAddrBitIncIO downto 0);
+	 v_wb_we_i:  in std_logic;
+	 v_wb_cyc_i: in std_logic;
+	 v_wb_stb_i: in std_logic;
+	 v_wb_ack_o: out std_logic;
+	 vgaclkout: out std_logic;	 
+	 
 	 --Wishbone Slot 5
     wb_clk_i5: out std_logic;
 	 wb_rst_i5: out std_logic;
@@ -190,6 +199,7 @@ architecture behave of ZPUino is
     rstin:  in std_logic;
     clkout: out std_logic;
     clkout_1mhz: out std_logic;
+	 vgaclkout: out std_logic;
     rstout: out std_logic
   );
   end component clkgen;
@@ -556,11 +566,13 @@ begin
     --sysrst <= clkgen_rst;
 
 
+
   clkgen_inst: clkgen
   port map (
     clkin   => clk,
     rstin   => dbg_reset,
     clkout  => sysclk,
+	 vgaclkout => vgaclkout,
     clkout_1mhz => sysclk_1mhz,
     rstout  => clkgen_rst
   );
@@ -581,13 +593,13 @@ begin
       slot_ack      => slot_ack,
       slot_interrupt=> slot_interrupt,
 
-      m_wb_dat_o    => open,
-      m_wb_dat_i    => (others => 'X'),
-      m_wb_adr_i    => (others => 'X'),
-      m_wb_we_i     => '0',
-      m_wb_cyc_i    => '0',
-      m_wb_stb_i    => '0',
-      m_wb_ack_o    => open,
+      m_wb_dat_o    => v_wb_dat_o,
+      m_wb_dat_i    => v_wb_dat_i,
+      m_wb_adr_i    => v_wb_adr_i,
+      m_wb_we_i     => v_wb_we_i,
+      m_wb_cyc_i    => v_wb_cyc_i,
+      m_wb_stb_i    => v_wb_stb_i,
+      m_wb_ack_o    => v_wb_ack_o,
 
       dbg_reset     => dbg_reset,
       jtag_data_chain_out => open,--jtag_data_chain_out,
